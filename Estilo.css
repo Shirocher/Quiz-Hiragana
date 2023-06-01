@@ -1,0 +1,134 @@
+
+body{
+    background: url(./BackG/istockphoto-1143691883-170667a.jpg) repeat top center/436px;
+}
+
+
+:root {
+
+    --verde: #4caf50;
+    --vermelho: #f44336;
+}
+
+.centro {
+    text-align: center;
+    font-style: 500 17px/20px sans-serif;
+    color: #ffebcd;
+}
+
+header{
+    text-align: center;
+    padding: 8px;
+    font-style: 500 17px/20px sans-serif;
+    font-size: 30px;
+    color: #ffebcd;
+
+}
+
+section {
+    background: rgb(180, 178, 155);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+    font-style: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.Letra{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+.Questao{
+    background: rgb(180, 178, 155);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+.Questao ol li {
+    font-size: 0.7em;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 1em;
+    width: 100px;
+    color: #000000;
+    padding: 0.2em 0.6em;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    gap: 8px;
+    transition: filter 0.2s;
+    display: block;
+    text-align: center;
+    margin-left: 6.7em;
+}
+
+.Questao ol li:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+
+@keyframes piscar {
+    0% {
+        filter: drop-shadow(0 0 15px var(--principal));
+        -webkit-filter: drop-shadow(0 0 15px var(--principal));
+        -moz-filter: drop-shadow(0 0 15px var(--principal));
+        -o-filter: drop-shadow(0 0 15px var(--principal));
+        -ms-filter: drop-shadow(0 0 15px var(--principal));
+    }
+    100% {
+    }
+}
+
+
+.animar {
+    animation: piscar .75s infinite alternate;
+}
+
+.aparecer {
+    animation: aparecer .5s infinite alternate;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.acertou {
+    background: var(--verde);
+    animation: aparecer 0.1s infinite alternate;
+}
+
+.errou {
+    background: var(--vermelho);
+    animation: aparecer 0.1s infinite alternate;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
