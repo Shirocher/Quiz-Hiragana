@@ -8,7 +8,7 @@
 | :sparkles: Nome        | Quiz Hiragana
 | :label: Tecnologias | <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript"  width="40" height="40"/>&nbsp;
 
-Nesse Projeto eu fiz um quiz de uma das linguagens básicas do japonês, o Hiragana, estou tentando aprimorar minhas tecnicas em JavaScript, HTML e CSS. 
+Nesse Projeto eu fiz um quiz de um dos alfabetos básicos do japonês, o Hiragana, estou tentando aprimorar minhas tecnicas em JavaScript, HTML e CSS. 
 
 ![350364560_1276899342916070_5478034481631173273_n](https://github.com/Shirocher/Quiz-Hiragana/assets/123005142/89faa8f8-c3f6-44d1-b766-d267677280c3)
 
